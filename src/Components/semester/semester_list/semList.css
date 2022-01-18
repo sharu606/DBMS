@@ -1,3 +1,6 @@
+@import url('../../colors.css');
+
 .sem-list {
-    
+    background-color: var(--kbl);
+    height: 100vh;
 }

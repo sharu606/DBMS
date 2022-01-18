@@ -2,9 +2,9 @@ import { Container } from "react-bootstrap";
 import "./semList.css";
 
 function SemList() {
-  return <Container className="sem-list">
+  return <div className="sem-list">
       ok
-  </Container>;
+  </div>;
 }
 
 export default SemList;

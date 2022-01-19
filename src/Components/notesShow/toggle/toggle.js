@@ -6,6 +6,12 @@ function Toggle(sem) {
   const sub_list = [
     "18MAT11 - Calculus and Linear Algebra",
     "18CHE12 - Engineering Chemistry",
+    "18CPS13 - C Programming for Problem Solving",
+    "18ELN14 - Basic Electronics",
+    "18ME15 - Elements of Mechanical Engineering",
+    "18CHEL16 - Engineering Chemistry Laboratory",
+    "18CPL17 - C Programming Laboratory",
+    "18EGH18	- Technical English-1"
   ];
 
   function selectHandler(val) {

@@ -3,4 +3,13 @@
 .sem-list {
     background-color: var(--kbl);
     height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.sem-title {
+    color: var(--kwhite);
+    background-color: var(--kcard-bg);
 }

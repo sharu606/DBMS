@@ -1,3 +1,9 @@
+@import url('./colors.css');
+
 .ok {
-    background-color: pink;
+    background-color: var(--kpink);
+}
+
+.nav {
+    background-color: var(--kwhite);
 }

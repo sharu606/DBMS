@@ -1,7 +1,19 @@
 import "./semCard.css";
+import { Container } from "react-bootstrap";
 
-function semCard() {
-  return <h1>ok</h1>;
+function SemCard(props) {
+  return (
+    <Container
+      className="sem-btn"
+      onClick={() => {
+        props.onClick(props.num);
+      }}
+    >
+      <div className="sem-title rounded border p-3 shadow">
+        Semester {props.num}
+      </div>
+    </Container>
+  );
 }
 
-export default semCard;
+export default SemCard;

@@ -3,5 +3,7 @@
     --klight-bl: #95b8d1;
     --kgreen: #b8e0d2;
     --klight-green: #d6eadf;
-    --kpink: #eac4d5;
+    --kpink: #eccddb;
+    --kwhite: rgb(255, 255, 255);
+    --kcard-bg: rgba(255, 255, 255, 0.1);
 }
